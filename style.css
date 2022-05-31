@@ -70,13 +70,13 @@
   color: #3a3a3a;
 }
 
-.button--delete .button__image {
+.button_delete .button__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button--delete:hover .button__image {
+.button_delete:hover .button__image {
   transform: rotateZ(0);
 }
 
@@ -155,7 +155,7 @@
 }
 
 /* Completed */
-.todo-list--completed .todo-list__todo-item-label {
+.todo-list_completed .todo-list__todo-item-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -165,11 +165,11 @@
   display: none;
 }
 
-.todo-list__todo-item--editable .todo-list__todo-item-input{
+.todo-list__todo-item_editable .todo-list__todo-item-input{
   display: inline-block;
   width: 224px;
 }
 
-.todo-list__todo-item--editable .todo-list__todo-item-label{
+.todo-list__todo-item_editable .todo-list__todo-item-label{
   display: none;
 }
