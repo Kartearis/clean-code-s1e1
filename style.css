@@ -136,7 +136,13 @@
 .todo-list__todo-item-checkbox {
   margin: 0 10px;
 }
-/* Labels were also marked as .task */
+
+.todo-list__todo-item-input,
+.todo-list__todo-item-label {
+  display: inline-block;
+  flex-grow: 1;
+}
+
 .todo-list__todo-item-label {
   padding-left: 10px;
   box-sizing: border-box;
